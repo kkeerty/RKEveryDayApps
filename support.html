@@ -6,6 +6,7 @@
         id="support-form"
         name="support"
         method="POST"
+        action="/thank-you.html"
         data-netlify="true">
         <input type="hidden" name="form-name" value="support">
         <label for="app">Which app?</label><select id="app" name="app" required><option value="">Choose an app</option><option>RKji Tasks</option><option>RKash</option><option>General question</option></select><label for="topic">What can we help with?</label><select id="topic" name="topic" required><option value="">Choose a topic</option><option>Question</option><option>Problem or bug</option><option>Comment or suggestion</option><option>Privacy question</option></select><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required><label for="reply-email">Your email</label><input id="reply-email" name="reply-email" type="email" autocomplete="email" required><label for="message">Message</label><textarea id="message" name="message" rows="7" required placeholder="Tell us what happened or what you would like to know."></textarea><p class="formNote">For RKash, never include passwords, bank account numbers, or other sensitive financial information.</p><button class="button primary" type="submit">Send Message <span>→</span></button><p class="formStatus" id="form-status" aria-live="polite"></p></form></section>
